@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Arquivos estáticos e mídia
+static/
+media/
+*/media/*
+*/static/*
+
+# Ambiente virtual
+venv/
+.env
+.venv
+ENV/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração sensíveis
+**/settings/local.py
+**/settings/production.py
+.env
+
+# Arquivos de cache
+*.pyc
+.cache/
+.pytest_cache/
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de cobertura de testes
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Arquivos temporários
+*.swp
+*.swo
+*~ 
